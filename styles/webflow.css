@@ -18,6 +18,7 @@ body, html{
   padding: 40px 150px 0px 150px;
   color: #1f1f1f;
   flex-direction: column;
+  margin-bottom: 80px;
 }
 .navbar{
   align-items: center;
@@ -51,7 +52,7 @@ body, html{
   font-size: 48px;
   font-weight: bold;
   color: #252432;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 
@@ -62,6 +63,7 @@ body, html{
   justify-content: space-between;
   align-items: center;
   padding: 0 150px;
+  margin-bottom: 120px;
 }
 
 .action-left{
@@ -253,7 +255,7 @@ body, html{
   flex-wrap: wrap;
   background-color: #f4f7ff;
   gap: 40px;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .touch-left {
@@ -267,7 +269,7 @@ body, html{
   line-height: 1.2;
   color: #000000;
   padding-top: 70px; 
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+  text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .touch-right{
@@ -331,7 +333,6 @@ textarea {
   font-size: 100px;
   font-weight: 800;
   color: #4E47FF;
-  margin-bottom: 20px;
 }
 
 .footer-subtitle{
