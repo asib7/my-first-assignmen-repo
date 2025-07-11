@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body, html{
@@ -9,48 +9,49 @@ body, html{
   background-color: #f4f7ff;
 }
 .background{
-    background-image: url('../Assets/Hero-bg.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 698px;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 150px 0px 150px;
-    color: #1f1f1f;
-    flex-direction: column;
+  background-image: url('../Assets/Hero-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 698px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 150px 0px 150px;
+  color: #1f1f1f;
+  flex-direction: column;
 }
 .navbar{
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
 }
-.logo{
-    font-weight: bold;
-    color: #4E47FF;
-    font-size: 34px;
+.logo{ 
+  font-weight: bold;
+  color: #4E47FF;
+  font-size: 34px;
 }
 .signup-btn, .focus-btn, .launch-btn, .cta-button{
-    background-color: #4E47FF;
-    color: #FFFFFF;
-    padding: 15px 25px;
-    border-radius: 8px;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  padding: 15px 25px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
 }
 .signup-btn:hover, .focus-btn:hover, .launch-btn:hover, .cta-button:hover{
-background-color: rgb(230, 207, 1);
+  background-color: rgb(230, 207, 1);
 }
 
 .banner{
-    text-align: center;
-    margin: auto 0;
+  text-align: center;
+  margin: auto 0;
 }
 .banner h1{
-    font-size: 48px;
-    font-weight: bold;
-    color: #252432;
-    margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 20px;
 }
 
 
@@ -63,11 +64,11 @@ background-color: rgb(230, 207, 1);
   padding: 0 150px;
 }
 
-.action-left {
+.action-left{
   max-width: 500px;
 }
 
-.action-title {
+.action-title{
   font-size: 32px;
   margin-bottom: 10px;
   color: #252432;
@@ -80,21 +81,21 @@ background-color: rgb(230, 207, 1);
 }
 
 .action-right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .action-right img{
-    border-radius: 40px;
-    max-width: 100%;
-    height: auto;
+  border-radius: 40px;
+  max-width: 100%;
+  height: auto;
 }
 
 
 
-/* Productive  Section */
+/* Productive user Section */
 
-.productive-section {
+.productive-section{
   background-color: #e8eaff;
   padding: 50px 180px;
   text-align: center;
@@ -103,56 +104,56 @@ background-color: rgb(230, 207, 1);
   max-width: 900px;
 }
 
-.stats-container h2 {
+.stats-container h2{
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 30px;
 }
 
-.stats {
+.stats{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.stat-item {
+.stat-item{
   margin: 10px 20px;
 }
 
-.stat-number {
+.stat-number{
   font-size: 60px;
   color: #4E47FF;
   font-weight: 700;
   display: block;
 }
 
-.stat-label {
+.stat-label{
   font-size: 14px;
   color: #888;
 }
 
 
 
-/* testimonials section */
+/* users say section */
 
-.testimonials {
+.testimonials{
   text-align: center;
   padding: 40px 150px;
 }
 
-.testimonials h2 {
-  font-size: 24px;
+.testimonials h2{
+  font-size: 42px;
   font-weight: 700;
   margin-bottom: 30px;
 }
 
-.testimonial-cards {
+.testimonial-cards{
   display: flex;
   justify-content: center;
   justify-content: space-between;
 }
 
-.testimonial {
+.testimonial{
   background-color: #fff;
   padding: 40px;
   border-radius: 12px;
@@ -161,39 +162,39 @@ background-color: rgb(230, 207, 1);
   text-align: left;
 }
 
-.stars {
+.stars{
   color: #f5c518;
   font-size: 18px;
 }
 
-.testimonial h3 {
+.testimonial h3{
   font-size: 22px;
   font-weight: 600;
   margin: 10px 0 5px;
 }
 
-.testimonial p {
+.testimonial p{
   font-size: 15px;
   color: #333;
 }
 
-.reviewer {
+.reviewer{
   display: flex;
   align-items: center;
   margin-top: 15px;
 }
 
-.reviewer img {
+.reviewer img{
   border-radius: 50%;
   margin-right: 10px;
 }
 
-.reviewer-name {
+.reviewer-name{
   font-weight: 400;
   font-size: 15px;
 }
 
-.review-date {
+.review-date{
   font-size: 12px;
   color: #888;
 }
@@ -202,12 +203,12 @@ background-color: rgb(230, 207, 1);
 
 /* Focus Section */
 
-.focus-section {
+.focus-section{
   margin-top: 80px;
   text-align: center;
 }
 
-.content-container {
+.content-container{
   background-color: white;
   padding: 70px 210px;
   border-radius: 15px;
@@ -215,112 +216,139 @@ background-color: rgb(230, 207, 1);
   margin: 0 auto;
 }
 
-.main-heading {
+.main-heading{
   font-size: 2.5rem;
   font-weight: bold;
   color: #111;
   margin-bottom: 16px;
 }
 
-.quote {
+.quote{
   color: #777;
   font-size: 1rem;
   margin-bottom: 32px;
 }
 
-.image-container {
+.image-container{
   margin-top: 40px;
   border-radius: 35px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
-.image-container img {
+.image-container img{
   width: 100%;
   display: block;
 }
 
 
 
+/* touch-section */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-image: url('../Assets/Hero-bg.png');
-  font-family: 'Segoe UI', sans-serif;
-  background-size: cover;
-  height: 100vh;
-  color: #1e1e2f;
-} */
-
-/* Navbar */
-/* .navbar {
+.touch-section{
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 20px 50px;
+  align-items: flex-start;
+  padding: 80px 10%;
+  flex-wrap: wrap;
+  background-color: #f4f7ff;
+  gap: 40px;
+  margin-top: 70px;
 }
 
-.logo {
+.touch-left {
+  flex: 1;
+  min-width: 250px;
+}
+
+.touch-left h1{
+  font-size: 97px;
   font-weight: bold;
-  color: #5b5bfd;
-  font-size: 1.5rem;
+  line-height: 1.2;
+  color: #000000;
+  padding-top: 70px; 
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
 
-.signup-btn {
-  padding: 10px 20px;
-  background-color: #5b5bfd;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-} */
+.touch-right{
+  flex: 1;
+  min-width: 320px;
+}
 
-/* Banner Section */
-/* account for navbar height */
-/* .banner {
+form{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: calc(100vh - 80px); 
-  text-align: center;
+  gap: 18px;
+  margin-left: 180px;
 }
 
-.banner h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 30px;
+label{
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
 }
 
-.focus-btn {
-  padding: 10px 25px;
-  background-color: #5b5bfd;
-  color: #fff;
+input, textarea{
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 20px;
+  background-color: white;
+}
+
+textarea {
+  resize: none;
+  height: 90px;
+}
+
+.touch-btn{
+  background-color: #4E47FF;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 14px;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   cursor: pointer;
-} */
+} 
+
+.touch-btn:hover{
+  background-color: rgb(230, 207, 1);
+}
+
+
+
+/* footer section */
+
+.footer {
+  text-align: center;
+  padding: 60px 20px;
+  color: #888;
+  background-color: #FFFFFF;
+}
+
+.footer-logo{
+  font-size: 100px;
+  font-weight: 800;
+  color: #4E47FF;
+  margin-bottom: 20px;
+}
+
+.footer-subtitle{
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  color: #8987A1;
+}
+
+.footer-nav a{
+  margin: 0 15px;
+  text-decoration: none;
+  color: #8987A1;
+  font-size: 16px;
+}
+
+.footer-nav a:hover{
+  color: rgb(42, 2, 2);
+}
